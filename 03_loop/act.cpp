@@ -42,14 +42,14 @@ int main() {
 
         // Display results
         cout << fixed << setprecision(2);
-        cout << "\n Student Number: " << studentNumber << endl;
-        cout << " Student Name: " << studentName << endl;
-        cout << " Subject: " << subject << endl;
-        cout << " Average Grade: " << average << endl;
-        cout << " Remark: " << remark << endl << endl;
+        cout << "\n \t\t\tStudent Number: " << studentNumber << endl;
+        cout << " \t\t\tStudent Name: " << studentName << endl;
+        cout << " \t\t\tSubject: " << subject << endl;
+        cout << " \t\t\tAverage Grade: " << average << endl;
+        cout << " \t\t\tRemark: " << remark << endl << endl;
 
         // Ask to process another student
-        cout << " Process Another? Y/N: ";
+        cout << " \t\t\tProcess Another? Y/N: ";
         cin >> processAnother;
         cin.ignore(); // Clear input buffer
         cout << endl;
