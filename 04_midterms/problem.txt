@@ -1,0 +1,3 @@
+ Find the average over all sales  where in there are 5 raw  sales.  The output where the raw sales  is less than the average over all sales should be displayed also.
+
+
